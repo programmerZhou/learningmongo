@@ -155,7 +155,7 @@ var convert = function () {
         let tripNo = null;
         for (let position of positions) {
             // if (position.reception_time )
-            if (tmpPosition == null || moment(position.reception_time).diff(moment(tmpPosition.reception_time), 'hours') > 1) {
+            if (tmpPosition == null || moment(position.reception_time).diff(moment(tmpPosition.reception_time), 'minutes') > 10) {
                 tripNo = uuid.v4();
                 let trip = new tripModel({
                     login_time: position.reception_time,

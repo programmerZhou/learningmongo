@@ -7706,15 +7706,4 @@
        reception_time: 2019-05-04T12:28:03.000Z,
        serial_number: 17,
        _id: 5ccd85530e85dc2994dd4a29 } ],
-  __v: 0 },{ is_alerted: false,
-  _id: 5cce930d03cb82ad04c6925f,
-  login_time: 2019-04-30T03:48:24.000Z,
-  lost_time: 2019-05-05T07:38:53.000Z,
-  imei: '0866425039671245',
-  trip_no: '4866ce77-ba4f-45ac-9852-801ff74d8fae',
-  positions: 
-   [ { data: [Object],
-       reception_time: 2019-04-30T03:48:24.000Z,
-       _id: 5cc7c588e7e9023752d68c1d,
-       data_type: 1 } ],
   __v: 0 }
